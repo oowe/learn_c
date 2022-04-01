@@ -1,2 +1,2 @@
-# learn_c
+# learn_cpp
 c++
