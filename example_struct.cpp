@@ -12,12 +12,13 @@ struct ball
         cout << "進入建構子" << endl;
         statusOK = false;
     }
-};
+} nike;
 
 int main()
 {
     // declare method 1
-    ball nike;
+    // struct ball nike;
+    // ball nike;
     nike.color = "black";
     nike.size = 29.5;
 

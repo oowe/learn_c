@@ -9,7 +9,7 @@ int main()
 
     cout << a / b << endl;
     //顯性資料型態轉換
-    cout << (float)a / b << endl;
+    cout << (float)a / b << endl; //只有強制轉換a的資料型態
 
     return 0;
 }

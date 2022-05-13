@@ -22,6 +22,9 @@ int main(void)
     a.name = "DELTA";
     cout << a.name << endl;
     cout << a.print_pwm() << endl;
+    //私有不得訪問更改
+    // cout << a.pwm << endl;
+    // a.pwm = 1.2;
 
     return 0;
 }

@@ -28,7 +28,7 @@ int main()
 
     s2 = move(s1);
 
-    // cout << "s1:" << *s1 << endl;
+    // cout << "s1:" << *s1 << endl;  //Segmentation fault (core dumped)
     cout << "s2:" << *s2 << endl;
     cout << "s2 postion:" << s2.get() << endl;
 
